@@ -3,14 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>はじめてのサイト</title>
+  <title>トップ</title>
   <style>
-    body { font-family: sans-serif; max-width: 600px; margin: 40px auto; padding: 0 16px; }
-    h1 { color: #c00; }
+    body { font-family: sans-serif; margin: 0; }
+    header, footer { background: #0a5; color: #fff; padding: 12px 16px; }
+    header a { color: #fff; margin-right: 12px; }
+    main { max-width: 600px; margin: 24px auto; padding: 0 16px; }
   </style>
 </head>
 <body>
-  <h1>公開できた</h1>
-  <p>スマホだけで作ったサイトです。改行はどうやるんだろう。</p>
+  <header>
+    <a href="/">トップ</a>
+    <a href="/about.html">会社概要</a>
+    <a href="/products/">製品</a>
+  </header>
+  <main>
+    <h1>トップ</h1>
+    <p>ここはトップページです。<br>これは改行のあとの行です。</p>
+    <p>段落を分けると、間が少し空きます。</p>
+  </main>
+  <footer>© 練習サイト</footer>
 </body>
 </html>
